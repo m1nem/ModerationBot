@@ -9,7 +9,7 @@
 
 ✨ Features
 
-Command	Description
+    Command	Description
 
     /kick	Remove a member (with reason)
     /ban / /unban	Permanent ban / lift ban by ID
@@ -17,6 +17,7 @@ Command	Description
     /warn / /warns	Issue / list member warnings (stored in PG)
     /ping / /avatar	Utility with style
     /addcmd / /delcmd	Create server-specific shortcuts
+    
     Purple embeds – every bot response is color-coordinated
     PostgreSQL backend – warnings & custom commands persist between restarts
     Slash only – modern, no-prefix UX
