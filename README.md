@@ -55,9 +55,9 @@ Bot logs in and syncs slash commands globally – they appear instantly in every
 
 ⚙️ Environment Variables
 
-Variable	Example	Purpose
-BOT_TOKEN	OTk3N…	Discord token (keep secret)
-PG_DSN	postgresql://m1nem:StrongPass@localhost:5432/moderationbot	PostgreSQL connection string
+    Variable	Example	Purpose
+    BOT_TOKEN	OTk3N…	Discord token (keep secret)
+    PG_DSN	postgresql://m1nem:StrongPass@localhost:5432/moderationbot	PostgreSQL connection string
 
 🐳 Docker (optional)
 
@@ -75,18 +75,18 @@ Build & run:
 
 📜 Commands Reference
 
-Slash Command	Permission	Description
-/kick	Kick Members	Remove member with reason
-/ban	Ban Members	Permanent ban
-/unban	Ban Members	Lift ban by Discord ID
-/purge	Manage Messages	Bulk-delete (1-100)
-/warn	Moderate Members	Issue warning (stored in PG)
-/warns	—	List member warnings
-/ping	—	Bot latency
-/avatar	—	Show user avatar
-/addcmd	Manage Guild	Create server shortcut
-/delcmd	Manage Guild	Delete shortcut
-All responses use purple embeds for consistent look.
+    Slash Command	Permission	Description
+    /kick	Kick Members	Remove member with reason
+    /ban	Ban Members	Permanent ban
+    /unban	Ban Members	Lift ban by Discord ID
+    /purge	Manage Messages	Bulk-delete (1-100)
+    /warn	Moderate Members	Issue warning (stored in PG)
+    /warns	—	List member warnings
+    /ping	—	Bot latency
+    /avatar	—	Show user avatar
+    /addcmd	Manage Guild	Create server shortcut
+    /delcmd	Manage Guild	Delete shortcut
+    All responses use purple embeds for consistent look.
 
 🛠️ Tech Stack
 
@@ -104,5 +104,6 @@ All responses use purple embeds for consistent look.
     Open a Pull Request
 
 📄 License
+
 MIT © 2025 m1nem – feel free to use, modify and distribute.
 ⭐ Star the repo if you like the bot – it helps a lot!
